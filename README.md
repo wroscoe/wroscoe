@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @wroscoe
-- 👀 I’m interested robots doing chores for me.
-- 🌱 I’m currently relearning geometry and linear algebra. 
-- 💞️ I’m looking to collaborate on making tools to automate architecture. 
-- 📫 How to reach me: twitter @wyoroscoe
+- 👀 I’m interested robots doing my chores, modular constructions, rewiring democracy, and async work.
+- 🌱 I’m currently looking for a fun company to join and writing small web apps. 
+- 💞️ Open to collaborate [nepo.me](www.nepo.me). 
+- 📫 Find me at [wroscoe.com](www.wroscoe.com) or twitter @wyoroscoe.
 
 <!---
 wroscoe/wroscoe is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
