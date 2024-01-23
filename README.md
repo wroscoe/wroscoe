@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Will
-- 👀 I’m interested robots doing my chores, modular constructions, rewiring democracy, and async work.
+- 👀 I’m interested in robots doing my chores, modular constructions, rewiring democracy, and async work. Also parenting hacks.
 - 🌱 I’m currently looking for a fun company to join and writing small web apps. 
 - 💞️ Open to collaborate [nepo.me](www.nepo.me). 
 - 📫 Find me at [wroscoe.com](www.wroscoe.com) or twitter @wyoroscoe.
