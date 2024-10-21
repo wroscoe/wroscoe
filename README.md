@@ -4,9 +4,10 @@
 - 💞️ Open to collaborate on  a simple AI notes app for brain dumping and thinking slow. 
 - 📫 Find me at [wroscoe.com](www.wroscoe.com) or twitter @wyoroscoe.
 
+----------
 
-Past and Ongoing projects include: 
-- [DonkeyCar][www.diyrobocars.com] - Raspberry Pi, Python and Tensorflow self driving car.
+## Past and Ongoing projects include: 
+- [DonkeyCar](www.diyrobocars.com) - Raspberry Pi, Python and Tensorflow self driving car.
 - [nepo.me](www.nepo.me) - My personal AI notes app.
 - DustyCam - An LPR camera for my neighborhood.
 
