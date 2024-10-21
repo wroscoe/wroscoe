@@ -1,7 +1,6 @@
 - 👋 Hi, I’m Will
 - 🙏 I’m want robots to do my chores.
-- 🌱 I’m currently helping companies integrate AI @ [roscoelab.com](www.roscoelab.com). 
-- 💞️ Open to collaborate on  a simple AI notes app for brain dumping and thinking slow. 
+- 🌱 I currently help companies companies integrate AI @ [roscoelab.com](www.roscoelab.com). 
 - 📫 Find me at [wroscoe.com](www.wroscoe.com) or twitter @wyoroscoe.
 
 ----------
