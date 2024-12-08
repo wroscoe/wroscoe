@@ -9,7 +9,7 @@
 ## Past and Ongoing projects include: 
 - [DonkeyCar](www.diyrobocars.com) - Raspberry Pi, Python and Tensorflow self driving car.
 - [nepo.me](www.nepo.me) - My personal AI notes app.
-- DustyCam - An LPR camera for my neighborhood.
+
 
 <!---
 wroscoe/wroscoe is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
