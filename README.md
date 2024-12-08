@@ -1,6 +1,7 @@
 - 👋 Hi, I’m Will
 - 🙏 I’m want robots to do my chores.
-- 🌱 I currently help companies companies integrate AI @ [roscoelab.com](www.roscoelab.com). 
+- 🌱 I help companies companies integrate AI @ [roscoelab.com](www.roscoelab.com).
+- ⚖️ Writing about decisions @ [WhyDefer](www.whydefer.com).
 - 📫 Find me at [wroscoe.com](www.wroscoe.com) or twitter @wyoroscoe.
 
 ----------
