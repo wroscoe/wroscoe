@@ -1,68 +1,98 @@
+<!-- 
+ 
+Instructions for AI: 
+ Context: This is a personal web page for me to link to some of my projects writing and code. 
+ Style: Use tailwind to create a simple style with few colors. 
+ Tone:Make the tone of the page very concise, as if a person is just writing it from their phone. 
+ 
+ 
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Will Roscoe</title>
-  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Will Roscoe</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-white text-gray-800 font-sans leading-relaxed">
+    <header class="bg-gray-200 text-center p-5 border-b border-gray-200">
+      <h1 class="text-2xl font-bold">Will Roscoe</h1>
+      <nav>
+        <ul class="flex space-x-4 justify-center">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-</head>
-<body class="bg-white text-gray-800 font-sans leading-relaxed">
-  <header class="bg-gray-200 text-center p-5 border-b border-gray-200">
-    <h1 class="text-2xl font-bold">Will Roscoe</h1>
-    <nav>
-      <ul class="flex space-x-4 justify-center">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <main class="max-w-screen-md mx-auto my-10 p-5">
+      <!-- About Section -->
+      <section id="about" class="mb-10">
+        <h2 class="font-bold">About</h2>
+        <p class="mb-4">
+          I enjoy using code to build products, infrastructure, and efficient
+          operations teams. The range of things I've worked on include automated flight scheduling and image processing,
+          reducing construction costs while scaling, ai notes app. I'm
+          experienced in designing performance programs, leading teams, and
+          negotiating complex contracts. 
+        </p>
 
-  <main class="max-w-screen-md mx-auto my-10 p-5">
-    <!-- Home Section -->
-    <section id="home" class="mb-10">
-      <h2>Welcome</h2>
-      <p>This is a minimalist template inspired by worrydream.com. Use this space to introduce your ideas and projects.</p>
-    </section>
+        <p class="mb-4">
+          I sometimes write words
+          <a
+            href="https://wroscoe.substack.com/"
+            target="_blank"
+            class="text-blue-500 underline"
+            >here</a
+          > and code
+          <a
+            href="https://github.com/wroscoe"
+            target="_blank"
+            class="text-blue-500 underline"
+            >here</a
+          >.
+        </p>
+      </section>
 
-    <!-- About Section -->
-    <section id="about" class="mb-10">
-      <h2>About</h2>
-      <p>Here you can include information about yourself or your work. The clean design puts content first.</p>
-    </section>
+      <!-- Projects Section -->
+      <section id="projects" class="mb-10">
+        <h2 class="font-bold">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- Added Donkeycar project -->
+          <article class="project bg-white shadow p-4 rounded">
+            <h3>Donkeycar</h3>
+            <p>Self-driving toy car on DonkeyCar platform.</p>
+            <a href="https://diyrobocars.com" class="text-blue-500 underline"
+              >Learn more</a
+            >
+          </article>
 
-    <!-- Projects Section -->
-    <section id="projects" class="mb-10 grid grid-cols-1 md:grid-cols-2 gap-4">
-      <h2>Projects</h2>
-      <p>List or showcase your projects here. Each project can be described simply or linked to more detailed pages.</p>
-      <!-- Added Donkeycar project -->
-      <article class="project bg-white shadow p-4 rounded">
-        <h3>Donkeycar</h3>
-        <p>A self-driving toy car project built on the DonkeyCar platform.</p>
-        <a href="https://diyrobocars.com" class="text-blue-500 underline">Learn more</a>
-      </article>
+          <!-- Add new project -->
+          <article class="project bg-white shadow p-4 rounded">
+            <h3>Coffee with Roscoe</h3>
+            <p>Opinion site about coffee and more.</p>
+            <a href="https://www.youtube.com/@coffeewithroscoe4773" class="text-blue-500 underline"
+              >Youtube </a
+            >
+          </article>
+        </div>
+      </section>
 
-      <!-- Add new project -->
-      <article class="project bg-white shadow p-4 rounded">
-        <h3>Coffee with Roscoe</h3>
-        <p>An opinion site about coffee and more.</p>
-        <a href="./coffee-with-roscoe.html" class="text-blue-500 underline">Learn more</a>
-      </article>
-    </section>
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2 class="font-bold">Contact</h2>
+        <p>Twitter: @wyoroscoe</p>
+      </section>
+    </main>
 
-    <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Twitter: @wyoroscoe</p>
-    </section>
-  </main>
+<footer class="text-center p-5 border-t border-gray-200 text-sm mt-10">
+    <p>Hosted on GitHub Pages. Written in plain HTML.</p>
 
-  <footer class="text-center p-5 border-t border-gray-200 text-sm mt-10">
-    <p>&copy; 2025 Will Roscoe</p>
-  </footer>
+</footer>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
