@@ -1,82 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Webpage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        header {
-            background: #333;
-            color: white;
-            padding: 20px;
-            font-size: 24px;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 20px;
-            background: white;
-            margin-top: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .profile img {
-            width: 150px;
-            border-radius: 50%;
-            margin-top: 20px;
-        }
-        .social a {
-            margin: 10px;
-            text-decoration: none;
-            color: #333;
-            font-size: 20px;
-        }
-        footer {
-            margin-top: 20px;
-            padding: 10px;
-            background: #333;
-            color: white;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Will Roscoe</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
 </head>
-<body>
+<body class="bg-white text-gray-800 font-sans leading-relaxed">
+  <header class="bg-gray-200 text-center p-5 border-b border-gray-200">
+    <h1 class="text-2xl font-bold">Will Roscoe</h1>
+    <nav>
+      <ul class="flex space-x-4 justify-center">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<header>
-    My Personal Website
-</header>
+  <main class="max-w-screen-md mx-auto my-10 p-5">
+    <!-- Home Section -->
+    <section id="home" class="mb-10">
+      <h2>Welcome</h2>
+      <p>This is a minimalist template inspired by worrydream.com. Use this space to introduce your ideas and projects.</p>
+    </section>
 
-<div class="container">
-    <div class="profile">
-        <img src="profile.jpg" alt="My Photo">
-        <h2>Your Name</h2>
-    </div>
+    <!-- About Section -->
+    <section id="about" class="mb-10">
+      <h2>About</h2>
+      <p>Here you can include information about yourself or your work. The clean design puts content first.</p>
+    </section>
 
-    <h3>About Me</h3>
-    <p>Hello! I'm [Your Name], a [Your Profession or Hobby]. I enjoy working on creative projects and learning new things.</p>
+    <!-- Projects Section -->
+    <section id="projects" class="mb-10 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <h2>Projects</h2>
+      <p>List or showcase your projects here. Each project can be described simply or linked to more detailed pages.</p>
+      <!-- Added Donkeycar project -->
+      <article class="project bg-white shadow p-4 rounded">
+        <h3>Donkeycar</h3>
+        <p>A self-driving toy car project built on the DonkeyCar platform.</p>
+        <a href="https://diyrobocars.com" class="text-blue-500 underline">Learn more</a>
+      </article>
 
-    <h3>Contact</h3>
-    <p>Email: you@example.com</p>
-    <p>Phone: (123) 456-7890</p>
+      <!-- Add new project -->
+      <article class="project bg-white shadow p-4 rounded">
+        <h3>Coffee with Roscoe</h3>
+        <p>An opinion site about coffee and more.</p>
+        <a href="./coffee-with-roscoe.html" class="text-blue-500 underline">Learn more</a>
+      </article>
+    </section>
 
-    <h3>Follow Me</h3>
-    <div class="social">
-        <a href="https://github.com/yourprofile" target="_blank">GitHub</a> |
-        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> |
-        <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
-    </div>
-</div>
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Twitter: @wyoroscoe</p>
+    </section>
+  </main>
 
-<footer>
-    &copy; 2025 Your Name. All rights reserved.
-</footer>
+  <footer class="text-center p-5 border-t border-gray-200 text-sm mt-10">
+    <p>&copy; 2025 Will Roscoe</p>
+  </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
-
