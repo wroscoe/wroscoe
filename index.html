@@ -2,7 +2,7 @@
  
 Instructions for AI: 
  Context: This is a personal web page for me to link to some of my projects writing and code. 
- Style: Use tailwind to create a simple style with few colors. 
+ Style: Use a simple style with few colors. 
  Tone:Make the tone of the page very concise, as if a person is just writing it from their phone. 
  
  
@@ -14,25 +14,19 @@ Instructions for AI:
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Will Roscoe</title>
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/components.js"></script>
   </head>
-  <body class="bg-white text-gray-800 font-sans leading-relaxed">
-    <header class="bg-gray-200 text-center p-5 border-b border-gray-200">
-      <h1 class="text-2xl font-bold">Will Roscoe</h1>
-      <nav>
-        <ul class="flex space-x-4 justify-center">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+  <body>
+    <!-- Include header component -->
+    <div data-component="header"></div>
 
-    <main class="max-w-screen-md mx-auto my-10 p-5">
+    <main>
       <!-- About Section -->
-      <section id="about" class="mb-10">
-        <h2 class="font-bold">About</h2>
-        <p class="mb-4">
+      <section id="about">
+        <h2>About</h2>
+        <p>
           I enjoy using code to build products, infrastructure, and efficient
           operations teams. The range of things I've worked on include automated flight scheduling and image processing,
           reducing construction costs while scaling, ai notes app. I'm
@@ -40,59 +34,55 @@ Instructions for AI:
           negotiating complex contracts. 
         </p>
 
-        <p class="mb-4">
+        <p>
           I sometimes write words
           <a
             href="https://wroscoe.substack.com/"
             target="_blank"
-            class="text-blue-500 underline"
             >here</a
           > and code
           <a
             href="https://github.com/wroscoe"
             target="_blank"
-            class="text-blue-500 underline"
             >here</a
           >.
         </p>
       </section>
 
-      <!-- Projects Section -->
-      <section id="projects" class="mb-10">
-        <h2 class="font-bold">Projects</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <!-- Added Donkeycar project -->
-          <article class="project bg-white shadow p-4 rounded">
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="grid grid-cols-2 gap-4">
+
+            <article class="project">
             <h3>Donkeycar</h3>
             <p>Self-driving toy car on DonkeyCar platform.</p>
-            <a href="https://diyrobocars.com" class="text-blue-500 underline"
-              >Learn more</a
-            >
+            <a href="https://diyrobocars.com">Learn more</a>
           </article>
 
-          <!-- Add new project -->
-          <article class="project bg-white shadow p-4 rounded">
+          <article class="project">
             <h3>Coffee with Roscoe</h3>
             <p>Opinion site about coffee and more.</p>
-            <a href="https://www.youtube.com/@coffeewithroscoe4773" class="text-blue-500 underline"
-              >Youtube </a
-            >
+            <a href="https://www.youtube.com/@coffeewithroscoe4773">Youtube</a>
+          </article>
+
+          <article class="project">
+            <h3>Untopian</h3>
+            <p>My merchandise store that celebrates an optimistic future that is not perfect.</p>
+            <a href="https://www.untopian.com">Visit store</a>
           </article>
         </div>
       </section>
 
       <!-- Contact Section -->
       <section id="contact">
-        <h2 class="font-bold">Contact</h2>
+        <h2>Contact</h2>
         <p>Twitter: @wyoroscoe</p>
       </section>
     </main>
 
-<footer class="text-center p-5 border-t border-gray-200 text-sm mt-10">
-    <p>Hosted on GitHub Pages. Written in plain HTML.</p>
+    <!-- Include footer component -->
+    <div data-component="footer"></div>
 
-</footer>
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
